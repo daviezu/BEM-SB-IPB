@@ -1,0 +1,125 @@
+body {
+  background-color: #F8F5F2;
+}
+
+
+.judul {
+  margin-top: 140px;
+  text-align: center;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.container-fluid{
+  padding-left: 100px;
+  padding-right: 170px;
+}
+
+li{
+  font-size: 23px;
+}
+
+.foto{
+  width: 56rem;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.isi {
+  margin-top: 72px;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: #454545;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer {
+  background-color: #ffca65;
+  height: 125px;
+  margin-top: 250px;
+}
+
+.footer .sponsor {
+  padding-top: 163px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.kontak {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+.gambar {
+  padding-top: 27px;
+}
+
+@media (max-width: 768px) {
+  .judul {
+    font-size: 37px;
+  }
+
+  .foto{
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+}
+}
+
+@media (max-width: 425px) {
+  .logo{
+    width: 100%;
+  }
+  .container-fluid{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .foto{
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .judul {
+    margin-top: 140px;
+    text-align: center;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .isi {
+    margin-top: 72px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #454545;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

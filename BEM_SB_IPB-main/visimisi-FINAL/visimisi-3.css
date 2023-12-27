@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* bagian isi  */
+
+.container {
+  margin-top: 2rem;
+  height: 76vh;
+}
+
+/* konten1 */
+
+.konten-1 {
+  background-color: #abd1c6;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.konten1-kiri {
+  font-size: 3.5rem;
+  color: white;
+}
+
+.bg-konten1 {
+  background-color: #137576;
+  max-width: 300px;
+  height: 50vh;
+  width: 100%;
+  text-transform: uppercase;
+  padding: 1.5rem;
+}
+
+.bem {
+  width: 300%;
+}
+.konten1-kiri span {
+  color: #ffca65;
+}
+
+.konten1-kanan {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+.konten1-kanan .kotak-teks {
+  width: 80%;
+}
+.konten1-kanan p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* konten2  */
+.isi-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.judul-konten {
+  display: flex;
+  justify-content: center;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 5rem;
+}
+
+.isi-konten {
+  display: flex;
+}
+
+.judul-visi,
+.judul-misi {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.konten-misi {
+  color: white;
+  background-color: #137576;
+  min-height: 70vh;
+  line-height: 2rem;
+  margin-left: 2rem;
+}
+
+.isi--konten-misi {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* bagian footer  */
+.footer {
+  background-color: #ffca65;
+  height: 60vh;
+  margin-top: 3rem;
+}
+
+/* .footer .sponsor {
+  padding-top: 163px;
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.foto {
+  padding-top: 36px;
+} */
+
+.kontak {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+.gambar {
+  padding-top: 27px;
+}
+
+.gambar .img-fluid {
+  margin-right: 1rem;
+}
+
+@media (max-width: 1030px) {
+  html {
+    font-size: 80%;
+  }  
+}
+
+@media (max-width: 670px) {
+    .bem {
+        display: inline;
+    }
+    .isi-konten {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .konten1-kanan {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .konten-visi,
+    .konten-misi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+  }
+

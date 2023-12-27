@@ -1,0 +1,133 @@
+body{
+  background-color: #ABD1C6;
+}
+.judul {
+  margin-top: 92px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.container-fluid{
+  padding-left: 100px;
+  padding-right: 170px;
+}
+
+li{
+  font-size: 23px;
+}
+
+.map {
+  margin-top: 80px;
+  width: 700px;
+}
+
+.email {
+  color: #454545;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 54px;
+}
+
+.lokasi {
+  color: #f00;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.satu {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  margin-top: 40px;
+}
+
+.wa {
+  color: #454545;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 26px;
+}
+
+.konten .kotak1 {
+  margin-top: 70px;
+}
+
+.konten .kotak1 .text {
+  margin-top: 50px;
+}
+
+.text {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.map {
+  margin-right: 25px;
+  margin: auto;
+}
+
+.footer {
+  background-color: #ffca65;
+  height: 130px;
+  margin-top: 250px;
+}
+
+.footer .sponsor {
+  padding-top: 163px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.foto {
+  padding-top: 36px;
+}
+
+.kontak {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+.gambar {
+  padding-top: 27px;
+}
+
+@media (max-width: 425px) {
+  .konten .kotak1 .map {
+  width: 90%;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo{
+    width: 100%;
+  }
+  .container-fluid{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,133 @@
+.konten {
+  box-sizing: border-box;
+
+  background-color: #137576;
+  height: auto;
+  padding-bottom: 0;
+}
+
+.container-fluid{
+  padding-left: 100px;
+  padding-right: 170px;
+}
+
+.footer {
+  background-color: #ffca65;
+  height: auto;
+}
+
+li{
+  font-size: 23px;
+}
+
+.logo{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+}
+
+.footer .sponsor {
+  padding-top: 50px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.foto {
+  padding-top: 36px;
+}
+
+.kontak {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+.gambar {
+  padding-top: 27px;
+  padding-bottom: 50px;
+}
+
+.isi {
+  padding-top: 0px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    background-color: #ffca65;
+    height: auto;
+  }
+  
+  .footer .sponsor {
+    padding-top: 20px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  .foto {
+    padding-top: 36px;
+  }
+  
+  .kontak {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 20px;
+  }
+  
+  .gambar {
+    padding-top: 27px;
+    padding-bottom: 10px;
+  }
+  
+  .isi {
+    padding-top: 0px;
+  }
+
+  .logo{
+    width:100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo{
+    width: 100%;
+  }
+  .container-fluid{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 920px) {
+  .container-fluid{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .footer .isi .sponsor{
+    font-size: 16px;
+  }
+  .footer .isi .foto{
+    width: 70%;
+    margin: auto;
+  }
+  .footer .kontak{
+    font-size: 14px;
+  }
+}

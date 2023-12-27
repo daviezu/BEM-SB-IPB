@@ -1,0 +1,332 @@
+body{
+  background: #E3F6F5;
+}
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.55);
+  height: 800px;
+  width: 100%;
+  background-image: url("../foto/background-meet.png");
+  background-size: cover;
+  background-blend-mode: multiply;
+  margin-right: 0;
+  margin-left: 0px;
+}
+
+.container-fluid{
+  padding-left: 100px;
+  padding-right: 170px;
+}
+
+.isi {
+  width: 475px;
+  margin-top: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.text {
+  margin: 215px auto;
+  width: 50%;
+}
+
+.boxjudul {
+  background: #137576;
+  height: 200px;
+}
+
+.textjudul {
+  color: #fff;
+  text-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.4);
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.judul {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.isi h1 {
+  margin-top: 50px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.isi .lear {
+  color: #ffca65;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: end;
+  margin-top: 30px;
+}
+
+li{
+  font-size: 23px;
+}
+
+.isi p {
+  margin-top: 30px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.text1 {
+  margin-top: 110px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.a {
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.b {
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.kotak2 .text2 p {
+  margin-top: 25px;
+}
+
+.text2 {
+  width: 475px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.text2 h1 {
+  margin-top: 100px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.kotak2 .text2 p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-align: end;
+}
+
+.text2 .lear2 {
+  color: #ffca65;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: start;
+  margin-top: 30px;
+}
+
+.kotak3 h1 {
+  margin-top: 100px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.kotak3 .lear3 {
+  color: #ffca65;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: end;
+  margin-top: 30px;
+}
+
+.kotak3 p {
+  margin-top: 30px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.text3 {
+  width: 475px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.kotak2 {
+  margin-top: 70px;
+}
+
+.kotak3 {
+  margin-top: 70px;
+}
+
+.log{
+  width: 240px;
+height: 240px;
+margin-top: 70px;
+margin-left: -70px;
+}
+
+.log1{
+  width: 240px;
+height: 240px;
+margin-right: -70px;
+}
+
+.log3{
+  width: 240px;
+height: 240px;
+margin-left: -70px;
+}
+
+.footer {
+  background-color: #ffca65;
+  height: 536px;
+  margin-top: 250px;
+}
+
+.footer .sponsor {
+  padding-top: 163px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.foto {
+  padding-top: 36px;
+}
+
+.kontak {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+.gambar {
+  padding-top: 27px;
+}
+
+@media (max-width: 768px) {
+  .text1 {
+    margin-top: 70px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+  .text {
+    margin: 256px auto;
+    width: 90%;
+  }
+  .judul {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .textjudul {
+    font-size: 30px;
+  }
+
+  .isi p {
+    font-size: 15px;
+  }
+  .kotak2 .text2 p {
+    font-size: 15px;
+  }
+  .isi h1 {
+    margin-top: 30px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .a {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .kotak3 p {
+    margin-top: 15px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .kotak3 h1 {
+    margin-top: 90px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+}
+
+@media (max-width: 425px) {
+  .logo{
+    width: 100%;
+  }
+  .container-fluid{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

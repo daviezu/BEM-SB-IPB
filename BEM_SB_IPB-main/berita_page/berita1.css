@@ -1,0 +1,167 @@
+.jumbotron {
+  background-color: #137576;
+  height: 190px;
+}
+
+.container-fluid{
+  padding-left: 100px;
+  padding-right: 170px;
+}
+
+li{
+  font-size: 23px;
+}
+
+.judul {
+  color: #ffca65;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.konten {
+  margin-top: 100px;
+}
+
+.img {
+  width: 100%;
+}
+
+.kotak1 .text p {
+  margin-top: 25px;
+}
+
+.kotak2 .text2 p {
+  margin-top: 25px;
+}
+
+.text {
+  width: 475px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.text2 {
+  width: 475px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 160px;
+}
+
+.text3 {
+  width: 876px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 160px;
+}
+
+.text2 h1 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.text3 h1 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.text p {
+  color: #454545;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text2 p {
+  color: #454545;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text3 p {
+  color: #454545;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text h1 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.text2 h1 {
+  
+  margin-left: 25px;
+}
+
+.footer {
+  background-color: #ffca65;
+  height: 125px;
+  margin-top: 250px;
+}
+
+.footer .sponsor {
+  padding-top: 163px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.foto {
+  padding-top: 36px;
+}
+
+.kontak {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+.gambar{
+    padding-top: 27px;
+}
+
+@media (max-width: 425px) {
+    .judul{
+      font-size: 37px;
+    }
+}
+
+@media (max-width: 425px) {
+  .logo{
+    width: 100%;
+  }
+  .container-fluid{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

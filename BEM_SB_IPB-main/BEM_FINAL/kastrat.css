@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* font  
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+*/
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* bagian konten  */
+.nama-organisasi {
+  background-image: url("assest/bg-judul.png");
+  background-size: cover;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.judul-nama {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+}
+
+.isi--judul-nama {
+  font-size: 1.25rem;
+  font-weight: 300;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+/* konten1  */
+.konten1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-image: linear-gradient(90deg, #ffca65, #137576);
+  margin-bottom: 2rem;
+}
+
+.konten2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background: linear-gradient(90deg, #137576, #ff738b);
+  margin-bottom: 2rem;
+}
+
+.konten3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background: linear-gradient(#761313, #c84ebc);
+  margin-bottom: 2rem;
+}
+
+.konten1 .kutipan,
+.konten2 .kutipan,
+.konten3 .kutipan {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 25%;
+}
+
+.konten1.jabatan,
+.konten2.jabatan,
+.konten3.jabatan {
+  width: 20%;
+}
+
+/* konten4  */
+.konten4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background: linear-gradient(90deg, #278770, #8768cf, #d371c4);
+}
+
+.konten4 .konten-atas {
+  display: flex;
+}
+
+.konten4 .konten-kiri,
+.konten4 .konten-kanan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+}
+
+.konten-bawah {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.konten4 .nama {
+  font-size: 1.25rem;
+}
+
+.konten4 .konten-atas .quote {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* bagian footer  */
+.footer {
+  background-color: #137576;
+  height: 30vh;
+}
+
+.kontak {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+.gambar {
+  padding-top: 27px;
+}
+
+.gambar .img-fluid {
+  margin-right: 1rem;
+}
+
+@media (max-width: 1050px) {
+  html {
+    font-size: 80%;
+  }
+  .konten1 img,
+  .konten2 img,
+  .konten3 img {
+    width: 30%;
+  }
+  .konten-atas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+
+  .konten-atas .konten-kiri,
+  .konten-atas .konten-kanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .konten4 img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 675px) {
+  html {
+    font-size: 60%;
+  }
+  .konten4 img {
+    width: 35%;
+  }
+}
+
+@media (max-width: 475px) {
+  html {
+    font-size: 40%;
+  }
+  .nama-organisasi .judul-nama {
+    font-size: 12px;
+    letter-spacing: 20px;
+  }
+  .nama-organisasi .isi--judul-nama {
+    font-size: 10px;
+  }
+}
